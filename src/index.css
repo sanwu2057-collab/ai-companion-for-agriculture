@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-sans: "Inter", sans-serif;
+
+  --color-bg-dark: #0A0A0F;
+  --color-text-primary: #E0E0E0;
+  --color-text-secondary: #A0A0A0;
+  --color-neon-blue: #00BFFF;
+  --color-neon-purple: #8A2BE2;
+  --color-neon-cyan: #00FFFF;
+  --color-glass-bg: rgba(255, 255, 255, 0.08);
+  --color-glass-border: rgba(255, 255, 255, 0.15);
+
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+body {
+  @apply font-sans bg-[var(--color-bg-dark)] text-[var(--color-text-primary)];
+  background-image: radial-gradient(at 20% 80%, var(--color-neon-purple) 0%, transparent 50%),
+                    radial-gradient(at 80% 20%, var(--color-neon-blue) 0%, transparent 50%);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.glassmorphism {
+  background-color: var(--color-glass-bg);
+  backdrop-filter: blur(15px);
+  border: 1px solid var(--color-glass-border);
+  border-radius: 1.5rem; /* rounded-3xl */
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}

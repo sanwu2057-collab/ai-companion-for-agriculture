@@ -1,0 +1,35 @@
+[
+  {
+    "id": "pm-kisan",
+    "name": "PM-KISAN Scheme",
+    "description": "A government scheme with the objective to supplement the financial needs of all landholding farmers' families.",
+    "eligibility": "All landholding farmer families, who have cultivable landholding in their names.",
+    "documents": ["Aadhaar Card", "Citizenship Certificate", "Landholding Papers", "Bank Account Details"],
+    "benefits": "Financial benefit of Rs. 6000/- per year is provided to all eligible farmer families, payable in three equal 4-monthly installments of Rs. 2000/- each.",
+    "farmer_type": ["Small", "Marginal"],
+    "category": "Subsidy",
+    "state": "National"
+  },
+  {
+    "id": "pmfby",
+    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "description": "A crop insurance scheme to provide insurance coverage and financial support to the farmers in the event of failure of any of the notified crop as a result of natural calamities, pests & diseases.",
+    "eligibility": "All farmers including sharecroppers and tenant farmers growing notified crops in the notified areas are eligible for coverage.",
+    "documents": ["Aadhaar Card", "Land Records", "Bank Passbook", "Sowing Declaration"],
+    "benefits": "Provides comprehensive insurance coverage against crop loss, helping to stabilize the income of farmers.",
+    "farmer_type": ["Small", "Marginal", "Tenant"],
+    "category": "Crop Insurance",
+    "state": "National"
+  },
+  {
+    "id": "pmksy",
+    "name": "Pradhan Mantri Krishi Sinchai Yojana (PMKSY)",
+    "description": "Launched with an aim to enhance physical access of water on farm and expand cultivable area under assured irrigation, improve on-farm water use efficiency, introduce sustainable water conservation practices etc.",
+    "eligibility": "All farmers are eligible. Priority given to small and marginal farmers.",
+    "documents": ["Aadhaar Card", "Land Ownership Papers", "Soil Health Card", "Bank Account Details"],
+    "benefits": "Financial assistance for adopting micro-irrigation systems like drips and sprinklers. Promotes water conservation.",
+    "farmer_type": ["Small", "Marginal"],
+    "category": "Irrigation",
+    "state": "National"
+  }
+]

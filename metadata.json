@@ -1,0 +1,7 @@
+{
+  "name": "Remix: Remix: Remix: AI Studio Dashboard",
+  "description": "A sleek, futuristic AI Studio dashboard with a dark theme and glassmorphism style for managing AI models.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

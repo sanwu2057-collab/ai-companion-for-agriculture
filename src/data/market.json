@@ -1,0 +1,126 @@
+[
+  {
+    "id": 1,
+    "crop": "Paddy(Dhan)(Common)",
+    "market": "Adilabad",
+    "min_price": 2150,
+    "max_price": 2250,
+    "modal_price": 2200,
+    "previous_modal_price": 2180,
+    "unit": "Quintal",
+    "state": "Telangana",
+    "historical_data": [
+      { "date": "2024-08-01", "price": 2150 },
+      { "date": "2024-08-02", "price": 2170 },
+      { "date": "2024-08-03", "price": 2165 },
+      { "date": "2024-08-04", "price": 2180 },
+      { "date": "2024-08-05", "price": 2200 }
+    ]
+  },
+  {
+    "id": 2,
+    "crop": "Cotton",
+    "market": "Adilabad",
+    "min_price": 6800,
+    "max_price": 7200,
+    "modal_price": 7000,
+    "previous_modal_price": 7050,
+    "unit": "Quintal",
+    "state": "Telangana",
+    "historical_data": [
+      { "date": "2024-08-01", "price": 7100 },
+      { "date": "2024-08-02", "price": 7080 },
+      { "date": "2024-08-03", "price": 7050 },
+      { "date": "2024-08-04", "price": 7050 },
+      { "date": "2024-08-05", "price": 7000 }
+    ]
+  },
+  {
+    "id": 3,
+    "crop": "Bengal Gram(Gram)(Whole)",
+    "market": "Adilabad",
+    "min_price": 5800,
+    "max_price": 6200,
+    "modal_price": 6000,
+    "previous_modal_price": 5950,
+    "unit": "Quintal",
+    "state": "Telangana"
+  },
+  {
+    "id": 4,
+    "crop": "Wheat",
+    "market": "Agra",
+    "min_price": 2275,
+    "max_price": 2300,
+    "modal_price": 2280,
+    "previous_modal_price": 2280,
+    "unit": "Quintal",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": 5,
+    "crop": "Potato",
+    "market": "Agra",
+    "min_price": 1400,
+    "max_price": 1600,
+    "modal_price": 1500,
+    "previous_modal_price": 1520,
+    "unit": "Quintal",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": 6,
+    "crop": "Mustard",
+    "market": "Agra",
+    "min_price": 5400,
+    "max_price": 5600,
+    "modal_price": 5500,
+    "previous_modal_price": 5480,
+    "unit": "Quintal",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": 7,
+    "crop": "Corn",
+    "market": "Chicago",
+    "min_price": 450,
+    "max_price": 475,
+    "modal_price": 460,
+    "previous_modal_price": 455,
+    "unit": "Bushel",
+    "state": "USA"
+  },
+  {
+    "id": 8,
+    "crop": "Soybeans",
+    "market": "Chicago",
+    "min_price": 1200,
+    "max_price": 1250,
+    "modal_price": 1220,
+    "previous_modal_price": 1230,
+    "unit": "Bushel",
+    "state": "USA"
+  },
+  {
+    "id": 9,
+    "crop": "Coffee",
+    "market": "São Paulo",
+    "min_price": 150,
+    "max_price": 160,
+    "modal_price": 155,
+    "previous_modal_price": 155,
+    "unit": "60kg Bag",
+    "state": "Brazil"
+  },
+  {
+    "id": 10,
+    "crop": "Sugar",
+    "market": "São Paulo",
+    "min_price": 20,
+    "max_price": 22,
+    "modal_price": 21,
+    "previous_modal_price": 20,
+    "unit": "50kg Bag",
+    "state": "Brazil"
+  }
+]
